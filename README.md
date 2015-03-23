@@ -1,4 +1,4 @@
-dragonbones的二进制解析代码
+dragonbones的二进制解析代码，经不严谨测试，大概提升30%的解析效率。
 
 1. 下载最新版本的dragonbones cpp
 https://github.com/DragonBones/DragonBonesCPP
