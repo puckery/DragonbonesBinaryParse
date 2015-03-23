@@ -9,7 +9,4 @@ https://github.com/DragonBones/DragonBonesCPP
 XMLToFB -s x:\skeleton.xml
 XMLToFB -t x:\texture.xml
 
-4. include "DBCCFactoryExt.h"
-
-DBCCFactoryExt::getInstance()->loadDragonBonesData("armatures/DragonBoy/skeleton.bin", "DragonBoy");
-DBCCFactoryExt::getInstance()->loadTextureAtlas("armatures/DragonBoy/texture.bin", "DragonBoy");
+4. 包含 "DBCCFactoryExt.h" 并用DBCCFactoryExt::getInstance()...进行测试
