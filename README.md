@@ -10,5 +10,6 @@ XMLToFB -s x:\skeleton.xml
 XMLToFB -t x:\texture.xml
 
 4. include "DBCCFactoryExt.h"
+
 DBCCFactoryExt::getInstance()->loadDragonBonesData("armatures/DragonBoy/skeleton.bin", "DragonBoy");
 DBCCFactoryExt::getInstance()->loadTextureAtlas("armatures/DragonBoy/texture.bin", "DragonBoy");
